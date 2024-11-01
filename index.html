@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snape</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Занять всю высоту окна */
+        }
+        header {
+            background-color: transparent; /* Убрали серый заголовок */
+            text-align: left; /* Сместили текст влево */
+            padding: 20px 40px; /* Добавили отступы */
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #007BFF;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #0056b3;
+        }
+        main {
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start; /* Сместили элементы влево */
+            flex: 1; /* Позволяет основному контенту занимать оставшееся пространство */
+        }
+        .logo {
+            width: 250px; /* Ширина логотипа */
+            height: auto; /* Автоматическая высота */
+            margin-bottom: 20px; /* Отступ под логотипом */
+        }
+        .link-section {
+            margin-bottom: 40px;
+            padding: 30px;
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 600px; /* Ограничение ширины секций */
+            text-align: left; /* Сместили текст влево */
+            transition: transform 0.3s;
+        }
+        .link-section:hover {
+            transform: translateY(-5px);
+        }
+        .product-container {
+            display: flex;
+            justify-content: space-around; /* Расположение товаров по горизонтали */
+            margin: 40px 0; /* Отступы сверху и снизу */
+            width: 100%;
+        }
+        .product-card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 200px; /* Ширина карточки товара */
+            transition: transform 0.3s;
+            overflow: hidden; /* Скрыть часть, выходящую за пределы */
+        }
+        .product-card:hover {
+            transform: scale(1.05); /* Увеличение карточки при наведении */
+        }
+        .product-image {
+            width: 100%; /* Ширина изображения */
+            height: auto; /* Автоматическая высота */
+        }
+        .product-name {
+            font-size: 18px;
+            margin: 10px 0 5px 0; /* Отступы для названия */
+        }
+        .product-price {
+            font-size: 16px;
+            color: #007BFF; /* Цвет цены */
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #282c34;
+            color: white;
+            position: relative; /* Изменено на relative */
+            width: 100%;
+            margin-top: auto; /* Позволяет подвалу оставаться внизу */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://raw.githubusercontent.com/Danik85731/Snape/refs/heads/main/snape.jpg" alt="Snape" class="logo"> <!-- Замените путь на свой логотип -->
+        <nav>
+            <ul>
+                <li><a href="https://t.me/gydrof">Контакты</a></li>
+                <li><a href="bruh.com">Продукты</a></li>
+                <li><a href="bruh.com">О нас</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+            </a>
+            <div class="product-container">
+                <div class="product-card">
+                    <img src="https://nic-pnb.ru/wp-content/uploads/2014/09/no-foto-2.jpg" alt="Товар 1" class="product-image"> <!-- Замените путь на изображение товара -->
+                    <div class="product-name">Snape MC12</div>
+                    <div class="product-name">Не в наличии</div>
+                </div>
+                <div class="product-card">
+                    <img src="https://nic-pnb.ru/wp-content/uploads/2014/09/no-foto-2.jpg" alt="Товар 2" class="product-image"> <!-- Замените путь на изображение товара -->
+                    <div class="product-name">Snape B3</div>
+                    <div class="product-name">Не в наличии</div>
+                </div>
+                <div class="product-card">
+                    <img src="https://nic-pnb.ru/wp-content/uploads/2014/09/no-foto-2.jpg" alt="Товар 2" class="product-image"> <!-- Замените путь на изображение товара -->
+                    <div class="product-name">Snape BC10</div>
+                    <div class="product-name">Не в наличии</div>
+                </div>
+            </div>
+        </section>
+
+
+    <footer>
+        <p>© 2024 Snape. Все права не защищены.</p>
+    </footer>
+</body>
+</html>
